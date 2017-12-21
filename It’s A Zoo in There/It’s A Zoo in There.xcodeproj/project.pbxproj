@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC04E5251E3F03330019635F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC04E5241E3F03330019635F /* AppDelegate.swift */; };
+		DC04E5271E3F03330019635F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC04E5261E3F03330019635F /* ViewController.swift */; };
+		DC04E52A1E3F03330019635F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC04E5281E3F03330019635F /* Main.storyboard */; };
+		DC04E52C1E3F03330019635F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC04E52B1E3F03330019635F /* Assets.xcassets */; };
+		DC04E52F1E3F03330019635F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC04E52D1E3F03330019635F /* LaunchScreen.storyboard */; };
+		DC04E5391E3FBEDC0019635F /* meow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC04E5361E3FBEDC0019635F /* meow.mp3 */; };
+		DC04E53A1E3FBEDC0019635F /* dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC04E5371E3FBEDC0019635F /* dog.mp3 */; };
+		DC04E53B1E3FBEDC0019635F /* horse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC04E5381E3FBEDC0019635F /* horse.mp3 */; };
+		DC04E5431E3FDE1D0019635F /* its-a-zoo-in-here.png in Resources */ = {isa = PBXBuildFile; fileRef = DC04E5421E3FDE1D0019635F /* its-a-zoo-in-here.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC04E5211E3F03330019635F /* It’s A Zoo in There.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "It’s A Zoo in There.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC04E5241E3F03330019635F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC04E5261E3F03330019635F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC04E5291E3F03330019635F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC04E52B1E3F03330019635F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC04E52E1E3F03330019635F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC04E5301E3F03330019635F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC04E5361E3FBEDC0019635F /* meow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meow.mp3; sourceTree = "<group>"; };
+		DC04E5371E3FBEDC0019635F /* dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog.mp3; sourceTree = "<group>"; };
+		DC04E5381E3FBEDC0019635F /* horse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = horse.mp3; sourceTree = "<group>"; };
+		DC04E5421E3FDE1D0019635F /* its-a-zoo-in-here.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "its-a-zoo-in-here.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC04E51E1E3F03330019635F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC04E5181E3F03330019635F = {
+			isa = PBXGroup;
+			children = (
+				DC04E5231E3F03330019635F /* It’s A Zoo in There */,
+				DC04E5221E3F03330019635F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC04E5221E3F03330019635F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC04E5211E3F03330019635F /* It’s A Zoo in There.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC04E5231E3F03330019635F /* It’s A Zoo in There */ = {
+			isa = PBXGroup;
+			children = (
+				DC04E5421E3FDE1D0019635F /* its-a-zoo-in-here.png */,
+				DC04E5361E3FBEDC0019635F /* meow.mp3 */,
+				DC04E5371E3FBEDC0019635F /* dog.mp3 */,
+				DC04E5381E3FBEDC0019635F /* horse.mp3 */,
+				DC04E5241E3F03330019635F /* AppDelegate.swift */,
+				DC04E5261E3F03330019635F /* ViewController.swift */,
+				DC04E5281E3F03330019635F /* Main.storyboard */,
+				DC04E52B1E3F03330019635F /* Assets.xcassets */,
+				DC04E52D1E3F03330019635F /* LaunchScreen.storyboard */,
+				DC04E5301E3F03330019635F /* Info.plist */,
+			);
+			path = "It’s A Zoo in There";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC04E5201E3F03330019635F /* It’s A Zoo in There */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC04E5331E3F03330019635F /* Build configuration list for PBXNativeTarget "It’s A Zoo in There" */;
+			buildPhases = (
+				DC04E51D1E3F03330019635F /* Sources */,
+				DC04E51E1E3F03330019635F /* Frameworks */,
+				DC04E51F1E3F03330019635F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "It’s A Zoo in There";
+			productName = "It’s A Zoo in There";
+			productReference = DC04E5211E3F03330019635F /* It’s A Zoo in There.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC04E5191E3F03330019635F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Cynthia;
+				TargetAttributes = {
+					DC04E5201E3F03330019635F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 728LFYZLTQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC04E51C1E3F03330019635F /* Build configuration list for PBXProject "It’s A Zoo in There" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC04E5181E3F03330019635F;
+			productRefGroup = DC04E5221E3F03330019635F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC04E5201E3F03330019635F /* It’s A Zoo in There */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC04E51F1E3F03330019635F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC04E52F1E3F03330019635F /* LaunchScreen.storyboard in Resources */,
+				DC04E53A1E3FBEDC0019635F /* dog.mp3 in Resources */,
+				DC04E52C1E3F03330019635F /* Assets.xcassets in Resources */,
+				DC04E5431E3FDE1D0019635F /* its-a-zoo-in-here.png in Resources */,
+				DC04E5391E3FBEDC0019635F /* meow.mp3 in Resources */,
+				DC04E53B1E3FBEDC0019635F /* horse.mp3 in Resources */,
+				DC04E52A1E3F03330019635F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC04E51D1E3F03330019635F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC04E5271E3F03330019635F /* ViewController.swift in Sources */,
+				DC04E5251E3F03330019635F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC04E5281E3F03330019635F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC04E5291E3F03330019635F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC04E52D1E3F03330019635F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC04E52E1E3F03330019635F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC04E5311E3F03330019635F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC04E5321E3F03330019635F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC04E5341E3F03330019635F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 728LFYZLTQ;
+				INFOPLIST_FILE = "It’s A Zoo in There/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cindywxw.It-s-A-Zoo-in-There";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC04E5351E3F03330019635F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 728LFYZLTQ;
+				INFOPLIST_FILE = "It’s A Zoo in There/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cindywxw.It-s-A-Zoo-in-There";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC04E51C1E3F03330019635F /* Build configuration list for PBXProject "It’s A Zoo in There" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC04E5311E3F03330019635F /* Debug */,
+				DC04E5321E3F03330019635F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC04E5331E3F03330019635F /* Build configuration list for PBXNativeTarget "It’s A Zoo in There" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC04E5341E3F03330019635F /* Debug */,
+				DC04E5351E3F03330019635F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC04E5191E3F03330019635F /* Project object */;
+}
